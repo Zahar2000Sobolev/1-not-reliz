@@ -163,8 +163,8 @@
 
 
 .card img {
-    width: 200px;
-    height: 145px;
+    width: 300px;
+    height: 245px;
 }
 
 
@@ -184,16 +184,9 @@
     margin-left: 300px;
 }
 
-.card img{
-    -webkit-box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
-    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
-    box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
-}
 
-img{
-    vertical-align: middle;
-    border-style: none;
-}
+
+
 
 .footerCard{
     color: #ffffff;
@@ -240,7 +233,7 @@ img{
 @media (max-width:780px) {
     .product__size{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows:repeat(4);
         text-align: center;
     }
